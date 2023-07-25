@@ -14,42 +14,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
-main #designers {
-  margin: 10px;
+main .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1rem 0;
+  text-align: center;
+  justify-content: center;
 }
-main #designers .container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-  align-content: center;
-  margin: 20px 0px;
-  border: 1px solid rgb(184, 178, 178);
-  border-radius: 30px;
-  padding: 5px;
+main .container .container-article {
+  padding: 1rem;
 }
-main #designers .container img {
-  width: 100%;
-  border-radius: 30px;
+main .container .container-article img {
+  width: 18rem;
 }
 
 @media (min-width: 720px) {
-  main {
-    width: 100%;
+  main .container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
-  main #designers {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  main #designers .container {
-    width: 320px;
-    margin: 10px;
-  }
-  main #designers .container img {
-    width: 300px;
+  main .container .container-article img {
+    width: 20rem;
   }
 }
 footer .container {
@@ -80,9 +65,10 @@ header .container-hero {
 }
 header .container-hero .hero {
   display: flex;
+  min-width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 0;
+  padding: 1.5rem 1rem;
 }
 header .container-hero .hero .container-logo {
   display: flex;
@@ -130,6 +116,11 @@ header .navbar .d-flex button:hover, header .navbar .d-flex main #destacada .pro
   border: 1px solid black;
 }
 
+@media (min-width: 720px) {
+  header .container-hero .hero .container-user .fa-user {
+    font-size: 3rem;
+  }
+}
 #portadasale {
   display: flex;
   align-items: center;
@@ -187,6 +178,7 @@ header .navbar .d-flex button:hover, header .navbar .d-flex main #destacada .pro
   background-color: #499c98;
   color: #fff;
   padding: 10px;
+  border-radius: 1.2rem;
 }
 #offers .carta {
   margin: 40px 0px;
@@ -219,9 +211,6 @@ header .navbar .d-flex button:hover, header .navbar .d-flex main #destacada .pro
   #portadasale {
     height: 35rem;
   }
-  #portadasale h1 {
-    font-size: 45px;
-  }
   #offers .container {
     width: 65%;
     display: flex;
@@ -235,12 +224,11 @@ header .navbar .d-flex button:hover, header .navbar .d-flex main #destacada .pro
     margin-bottom: 30px;
   }
   #offers .carta {
-    margin: auto;
     margin: 10px;
   }
   #offers .carta img {
-    width: 200px;
-    height: auto;
+    width: 14rem;
+    height: 20rem;
   }
 }
 #account .container {
@@ -292,8 +280,8 @@ header .navbar .d-flex button:hover, header .navbar .d-flex main #destacada .pro
 }
 
 @media (min-width: 720px) {
-  #stores .container img {
-    width: 100%;
+  #stores .container .carta img {
+    width: 12rem;
   }
 }
 main .banner {
@@ -358,21 +346,11 @@ main #destacada .products .carta .button-danger {
 
 @media (min-width: 720px) {
   main .banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 42rem;
-    background-image: linear-gradient(rgba(186, 193, 204, 0.486), rgba(0, 0, 0, 0.5)), url(../img/Banner.jpg);
   }
   main .banner h2 {
-    font-family: "Dancing Script", cursive;
-    color: #fff;
-    padding-top: 10rem;
+    padding-top: 24rem;
+    font-size: 3.5rem;
   }
   main #destacada .container {
     width: 65%;

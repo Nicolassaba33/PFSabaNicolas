@@ -6,9 +6,11 @@ header {
 
     .hero {
       display: flex;
+      min-width: 100%;
       justify-content: space-between;
       align-items: center;
-      padding: 1.5rem 0;
+      padding: 1.5rem 1rem;
+
       .container-logo {
         display: flex;
         align-items: center;
@@ -72,6 +74,16 @@ header {
     }
   }
 }
-
 @media (min-width: 720px) {
+  header {
+    .container-hero {
+      .hero {
+        .container-user {
+          .fa-user {
+            font-size: 3rem;
+          }
+        }
+      }
+    }
+  }
 }

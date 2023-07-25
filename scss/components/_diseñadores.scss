@@ -1,21 +1,15 @@
 @import "../base/base";
-
 main {
-  #designers {
-    margin: 10px;
-    .container {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      align-items: center;
-      align-content: center;
-      margin: 20px 0px;
-      border: 1px solid rgb(184, 178, 178);
-      border-radius: 30px;
-      padding: 5px;
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem 0;
+    text-align: center;
+    justify-content: center;
+    .container-article {
+      padding: 1rem;
       img {
-        width: 100%;
-        border-radius: 30px;
+        width: 18rem;
       }
     }
   }
@@ -23,19 +17,13 @@ main {
 
 @media (min-width: 720px) {
   main {
-    width: 100%;
-    #designers {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
 
-      .container {
-        width: 320px;
-        margin: 10px;
+      .container-article {
         img {
-          width: 300px;
+          width: 20rem;
         }
       }
     }

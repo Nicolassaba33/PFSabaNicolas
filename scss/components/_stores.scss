@@ -33,8 +33,10 @@
 @media (min-width: 720px) {
   #stores {
     .container {
-      img {
-        width: 100%;
+      .carta {
+        img {
+          width: 12rem;
+        }
       }
     }
   }
