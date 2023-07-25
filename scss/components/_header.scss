@@ -1,0 +1,77 @@
+@import "../base/base";
+
+header {
+  .container-hero {
+    background-color: $color-background;
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 0;
+      .container-logo {
+        display: flex;
+        align-items: center;
+
+        i {
+          font-size: 3rem;
+        }
+
+        a {
+          text-decoration: none;
+          color: black;
+          font-size: 3rem;
+          text-transform: uppercase;
+          letter-spacing: -1px;
+
+          img {
+            width: 7.5rem;
+            border-radius: 2rem;
+            margin-left: 0.5rem;
+          }
+        }
+      }
+
+      .container-user {
+        display: flex;
+        gap: 1rem;
+        cursor: pointer;
+
+        .fa-user {
+          font-size: 2rem;
+          color: $color-fondo;
+          padding-right: 1rem;
+        }
+      }
+    }
+  }
+
+  .navbar {
+    background-color: $color-fondo;
+
+    .container-fluid {
+      .nav-item {
+        a {
+          color: $color-fuente;
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    .d-flex {
+      button {
+        color: $color-fuente;
+        border: 1px solid white;
+      }
+
+      button:hover {
+        color: black;
+        background-color: $color-background;
+        border: 1px solid black;
+      }
+    }
+  }
+}
+
+@media (min-width: 720px) {
+}

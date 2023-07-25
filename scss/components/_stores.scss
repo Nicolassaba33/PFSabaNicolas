@@ -1,0 +1,41 @@
+@import "../base/base";
+
+#stores {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    img {
+      width: 100%;
+      margin-top: 20px;
+      padding: 15px;
+    }
+
+    h2 {
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    p {
+      padding: 15px;
+    }
+
+    iframe {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 15px;
+    }
+  }
+}
+
+@media (min-width: 720px) {
+  #stores {
+    .container {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+main #designers {
+  margin: 10px;
+}
+main #designers .container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  margin: 20px 0px;
+  border: 1px solid rgb(184, 178, 178);
+  border-radius: 30px;
+  padding: 5px;
+}
+main #designers .container img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+@media (min-width: 720px) {
+  main {
+    width: 100%;
+  }
+  main #designers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  main #designers .container {
+    width: 320px;
+    margin: 10px;
+  }
+  main #designers .container img {
+    width: 300px;
+  }
+}
+footer .container {
+  background-color: #e9e0cc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  min-width: 100%;
+}
+footer p {
+  text-decoration: underline;
+  font-weight: 500;
+}
+footer .contact {
+  display: flex;
+  justify-content: center;
+}
+footer a {
+  margin: 10px;
+  padding: 0px;
+  font-size: 0px;
+}
+
+header .container-hero {
+  background-color: #eed9ac;
+}
+header .container-hero .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+header .container-hero .hero .container-logo {
+  display: flex;
+  align-items: center;
+}
+header .container-hero .hero .container-logo i {
+  font-size: 3rem;
+}
+header .container-hero .hero .container-logo a {
+  text-decoration: none;
+  color: black;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+header .container-hero .hero .container-logo a img {
+  width: 7.5rem;
+  border-radius: 2rem;
+  margin-left: 0.5rem;
+}
+header .container-hero .hero .container-user {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+header .container-hero .hero .container-user .fa-user {
+  font-size: 2rem;
+  color: #499c98;
+  padding-right: 1rem;
+}
+header .navbar {
+  background-color: #499c98;
+}
+header .navbar .container-fluid .nav-item a {
+  color: #fff;
+  font-size: 1.2rem;
+}
+header .navbar .d-flex button, header .navbar .d-flex main #destacada .products .carta .button-danger, main #destacada .products .carta header .navbar .d-flex .button-danger, header .navbar .d-flex #offers .carta .button-danger, #offers .carta header .navbar .d-flex .button-danger, header .navbar .d-flex #portadasale .carta .button-danger, #portadasale .carta header .navbar .d-flex .button-danger {
+  color: #fff;
+  border: 1px solid white;
+}
+header .navbar .d-flex button:hover, header .navbar .d-flex main #destacada .products .carta .button-danger:hover, main #destacada .products .carta header .navbar .d-flex .button-danger:hover, header .navbar .d-flex #offers .carta .button-danger:hover, #offers .carta header .navbar .d-flex .button-danger:hover, header .navbar .d-flex #portadasale .carta .button-danger:hover, #portadasale .carta header .navbar .d-flex .button-danger:hover {
+  color: black;
+  background-color: #eed9ac;
+  border: 1px solid black;
+}
+
+#portadasale {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 12rem;
+  background-image: url(../../img/PortadaSale.jpg);
+  margin-bottom: 30px;
+}
+#portadasale .container {
+  text-align: center;
+  width: 87%;
+}
+#portadasale h2 {
+  background-color: #499c98;
+  color: #fff;
+  padding: 10px;
+}
+#portadasale .carta {
+  margin: 40px 0px;
+}
+#portadasale .carta img {
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  padding: 0.5rem;
+}
+#portadasale .carta p {
+  margin: 6px;
+}
+#portadasale .carta button, #portadasale main #destacada .products .carta .button-danger, main #destacada .products #portadasale .carta .button-danger, #portadasale .carta .button-danger {
+  background-color: #eed9ac;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: rgb(31, 23, 23);
+  font-size: 24px;
+  padding: 6px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#portadasale .carta .button-danger {
+  background-color: red;
+}
+
+#offers .container {
+  text-align: center;
+  width: 87%;
+}
+#offers h2 {
+  background-color: #499c98;
+  color: #fff;
+  padding: 10px;
+}
+#offers .carta {
+  margin: 40px 0px;
+}
+#offers .carta img {
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  padding: 4px;
+}
+#offers .carta p {
+  margin: 6px;
+}
+#offers .carta button, #offers main #destacada .products .carta .button-danger, main #destacada .products #offers .carta .button-danger, #offers .carta .button-danger {
+  background-color: #eed9ac;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: rgb(31, 23, 23);
+  font-size: 24px;
+  padding: 6px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#offers .carta .button-danger {
+  background-color: red;
+}
+
+@media (min-width: 720px) {
+  #portadasale {
+    height: 35rem;
+  }
+  #portadasale h1 {
+    font-size: 45px;
+  }
+  #offers .container {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+  }
+  #offers .products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  #offers .carta {
+    margin: auto;
+    margin: 10px;
+  }
+  #offers .carta img {
+    width: 200px;
+    height: auto;
+  }
+}
+#account .container {
+  display: flex;
+  justify-content: center;
+}
+#account .container .perfil {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 10px;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 50px;
+  height: auto;
+  align-items: center;
+}
+#account .container .perfil img {
+  width: 100%;
+}
+#account .container .perfil .buttons .btn {
+  height: 40px;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+}
+
+#stores .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#stores .container img {
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+}
+#stores .container h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+#stores .container p {
+  padding: 15px;
+}
+#stores .container iframe {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+@media (min-width: 720px) {
+  #stores .container img {
+    width: 100%;
+  }
+}
+main .banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  background-image: linear-gradient(rgba(186, 193, 204, 0.486), rgba(0, 0, 0, 0.5)), url(../img/Banner.jpg);
+}
+main .banner h2 {
+  font-family: "Dancing Script", cursive;
+  color: #fff;
+  padding-top: 10rem;
+}
+main hr {
+  border: none;
+  height: 2px;
+  background-color: #499c98;
+  width: 100%;
+}
+main #destacada .container {
+  text-align: center;
+  width: 88%;
+}
+main #destacada h2 {
+  background-color: #499c98;
+  color: #fff;
+  padding: 10px;
+  border-radius: 1.2rem;
+}
+main #destacada .products .carta {
+  margin: 40px 0px;
+}
+main #destacada .products .carta img {
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  padding: 0.5rem;
+}
+main #destacada .products .carta p {
+  margin: 6px;
+}
+main #destacada .products .carta button, main #destacada .products .carta .button-danger {
+  background-color: #eed9ac;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: rgb(31, 23, 23);
+  font-size: 24px;
+  padding: 6px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+main #destacada .products .carta .button-danger {
+  background-color: red;
+}
+
+@media (min-width: 720px) {
+  main .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 42rem;
+    background-image: linear-gradient(rgba(186, 193, 204, 0.486), rgba(0, 0, 0, 0.5)), url(../img/Banner.jpg);
+  }
+  main .banner h2 {
+    font-family: "Dancing Script", cursive;
+    color: #fff;
+    padding-top: 10rem;
+  }
+  main #destacada .container {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+  }
+  main #destacada .container .products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  main #destacada .container .carta {
+    margin: auto;
+    margin: 10px;
+  }
+  main #destacada .container .carta img {
+    width: 200px;
+    height: auto;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Ysabeau SC", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */

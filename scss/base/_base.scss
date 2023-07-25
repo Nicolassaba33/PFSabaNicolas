@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+$color-background: #eed9ac;
+$color-cartel: #890c0c;
+$color-boton: #f0e8df;
+$color-fuente: #fff;
+$color-fondo: #499c98;
+$color-footer: #e9e0cc;
+@mixin botonescompra() {
+  button {
+    background-color: $color-background;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: rgb(31, 23, 23);
+    font-size: 24px;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button-danger {
+    @extend button;
+    background-color: red;
+  }
+}
+
+@mixin imgproduct() {
+  img {
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    padding: 0.5rem;
+  }
+}
+
+@mixin imgportadas() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

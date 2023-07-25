@@ -1,0 +1,23 @@
+@import "../scss/base/base";
+@import "../scss/components/diseñadores";
+@import "../scss/components/footer";
+@import "../scss/components/header";
+@import "../scss/components/ofertas";
+@import "../scss/components/account";
+@import "../scss/components/stores";
+@import "../scss/components/menu";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Ysabeau SC", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
